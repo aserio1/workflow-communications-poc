@@ -30,4 +30,4 @@ jobs:
           echo "Deployment id from workflow-1 is ${DEPLOY_ID}"
 
           STATUS=$(grep -E '^(pending|queued)' sanitized_log.txt)
-          echo "Status from workflow-1 is ${STATUS}"
+          echo "Status from workflow-1 is ${STATUS} Thanks"
